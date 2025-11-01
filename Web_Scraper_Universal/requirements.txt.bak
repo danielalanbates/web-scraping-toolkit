@@ -1,0 +1,37 @@
+# Universal Web Scraper & Utilities Requirements
+# Shared with other Copilot projects to minimize duplication
+# Python 3.13+ compatible
+# Last Updated: October 17, 2025
+
+# Core web scraping (shared with price-monitor-scraper)
+requests==2.32.5          # Latest stable (Aug 2025)
+beautifulsoup4==4.14.2    # Latest stable (Sep 2025)
+lxml==6.0.2               # Latest stable (Sep 2025)
+
+# Dynamic page scraping (shared with price-monitor-scraper)
+selenium==4.36.0          # Latest stable (Oct 2025)
+webdriver-manager==4.0.2  # Updated
+
+# Data processing & export (shared with Stock_management, price-monitor-scraper)
+pandas==2.3.3             # Latest stable (Sep 2025)
+openpyxl==3.1.5           # Excel export support (updated)
+
+# Visualization for report_generator.py
+matplotlib>=3.9.0         # Updated
+numpy>=2.1.0              # Updated for Python 3.13
+
+# CLI & utilities (shared with price-monitor-scraper)
+click==8.1.7              # Latest stable
+colorama==0.4.6           # Latest stable
+python-dotenv==1.0.1      # Updated
+
+# Scheduling (shared with price-monitor-scraper)
+schedule==1.2.2           # Updated
+
+# Menu bar app (macOS)
+rumps==0.4.0              # Updated for macOS compatibility
+
+# Optional: Advanced features
+# Uncomment if needed:
+# pillow>=11.0.0  # Image processing (shared with photo organizer)
+# PyYAML>=6.0.2   # YAML config files

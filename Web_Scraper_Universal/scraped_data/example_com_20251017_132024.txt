@@ -1,0 +1,14 @@
+{
+  "url": "https://example.com",
+  "scraped_at": "2025-10-17T13:20:24.353638",
+  "metadata": {
+    "title": "Example Domain",
+    "viewport": "width=device-width, initial-scale=1"
+  },
+  "links": [
+    {
+      "text": "Learn more",
+      "url": "https://iana.org/domains/example"
+    }
+  ]
+}
